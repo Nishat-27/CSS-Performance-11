@@ -1,0 +1,49 @@
+input:checked{
+    height: 20px;
+    width: 20px;
+    accent-color:green;
+}
+input:disabled{
+    background-color: red;
+}
+p:empty{
+    width: 150px;
+    height: 20px;
+    background-color: aquamarine;
+}
+div.p p:first-of-type{
+    color: cadetblue;
+}
+div.p p:last-child{
+    color: red;
+}
+div.p p:last-of-type{
+    background-color: cornsilk;
+}
+div.p:not(p){
+    color: darkkhaki;
+}
+input#i:focus{
+    background-color: burlywood;
+}
+input#x:in-range{
+    border: 2px solid blue;
+}
+input#x:out-of-range{
+    border: 2px solid red;
+    background-color: red;
+}
+input#s:valid{
+    color: green;
+    border: 2px solid green;
+}
+input#s:invalid{
+    color: red;
+    border: 2px solid red;
+}
+div.mainbox p:nth-child(2){
+    color: crimson;
+}
+div.mainbox p:nth-last-of-type(1){
+    color: blue;
+}
